@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../widgets/side_menu_widget.dart';
 import '../widgets/tech_skills_widget.dart';
-import 'package:portfolio_flutter_app/widgets/dark_mode_toggle_widget.dart';
+import '../widgets/dark_mode_toggle_widget.dart';
 
 class SkillsPage extends StatelessWidget {
   SkillsPage({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio_flutter_app/widgets/side_menu_widget.dart';
-import 'package:portfolio_flutter_app/widgets/dark_mode_toggle_widget.dart';
+import '../widgets/side_menu_widget.dart';
+import '../widgets/dark_mode_toggle_widget.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});

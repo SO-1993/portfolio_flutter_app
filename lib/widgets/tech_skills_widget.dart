@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class TechSkillsWidget extends StatelessWidget {
-  const TechSkillsWidget({super.key, required this.skillName}); // Changed from "child" to "skillName"
+  const TechSkillsWidget({super.key, required this.skillName});
 
-  final String skillName; // Renamed from "child" to "skillName"
+  final String skillName; 
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class TechSkillsWidget extends StatelessWidget {
         ),
         child: Center(
           child: Text(
-            skillName, // Use renamed variable
+            skillName, 
             textAlign: TextAlign.center,
             style: const TextStyle(
               fontSize: 16,
