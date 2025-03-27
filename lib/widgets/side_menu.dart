@@ -14,7 +14,7 @@ class SideMenu extends StatelessWidget {
               color: Colors.green,
               image: DecorationImage(
                 fit: BoxFit.fill,
-                image: AssetImage('assets/images/lake.jpg'),
+                image: AssetImage('assets/images/resume.jpg'),
               ),
             ),
             child: Align(
@@ -31,7 +31,7 @@ class SideMenu extends StatelessWidget {
           ),
           ListTile(
             leading: Icon(Icons.input),
-            title: Text('Welcome'),
+            title: Text('Home'),
             onTap: () => {
               Navigator.pushNamed(context,'/home_page')
             },
