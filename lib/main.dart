@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import '../pages/contact_page.dart';
 import '../pages/home_page.dart';
 import '../pages/profile_page.dart';
@@ -6,8 +7,8 @@ import '../pages/projects_page.dart';
 import '../pages/settings_page.dart';
 import '../pages/skills_page.dart';
 import '../pages/education_page.dart';
-import 'package:provider/provider.dart';
 import '../theme/theme_provider.dart';
+import '../theme/theme.dart';
 
 void main() {
   runApp(
@@ -23,9 +24,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final themeProvider = Provider.of<ThemeProvider>(context);
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: Provider.of<ThemeProvider>(context).themeData,
+      theme: themeProvider.themeData,
+      // theme: lightMode,
+      // darkTheme: darkMode,
+      // themeMode: themeProvider.isDarkMode ? ThemeMode.dark : ThemeMode.light, 
       home: const HomePage(),
       routes: {
         '/home_page': (context) => const HomePage(),

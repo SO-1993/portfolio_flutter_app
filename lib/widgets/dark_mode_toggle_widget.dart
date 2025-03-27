@@ -8,14 +8,14 @@ class DarkModeToggleWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return IconButton(
-            icon: Icon(
-              Theme.of(context).brightness == Brightness.dark
-                  ? Icons.light_mode
-                  : Icons.dark_mode,
-            ),
-            onPressed: () {
-              Provider.of<ThemeProvider>(context, listen: false).toggleTheme();
-            },
-          );
+      icon: Icon(
+        Provider.of<ThemeProvider>(context).isDarkMode
+            ? Icons.light_mode
+            : Icons.dark_mode,
+      ),
+      onPressed: () {
+        Provider.of<ThemeProvider>(context, listen: false).toggleTheme();
+      },
+    );
   }
 }
