@@ -58,10 +58,17 @@ class SideMenu extends StatelessWidget {
             }
           ),
           ListTile(
-            leading: Icon(Icons.border_color),
+            leading: Icon(Icons.info),
             title: Text('Contact'),
             onTap: () => {
            Navigator.pushNamed(context,'/contact_page')
+            }
+          ),
+          ListTile(
+            leading: Icon(Icons.school),
+            title: Text('Education'),
+            onTap: () => {
+           Navigator.pushNamed(context,'/education_page')
             }
           ),
           ListTile(
