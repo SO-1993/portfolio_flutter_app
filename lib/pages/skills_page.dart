@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio_flutter_app/widgets/side_menu.dart';
+import 'package:portfolio_flutter_app/widgets/side_menu_widget.dart';
 
 class SkillsPage extends StatelessWidget {
   const SkillsPage({super.key});

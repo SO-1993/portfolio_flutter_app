@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class MySquare extends StatelessWidget {
-  const MySquare({super.key, required this.child});
+class ContactInfoWidget extends StatelessWidget {
+  const ContactInfoWidget({super.key, required this.child});
 
   final String child;
 

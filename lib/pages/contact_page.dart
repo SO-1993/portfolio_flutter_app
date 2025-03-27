@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio_flutter_app/widgets/side_menu.dart';
-import 'package:portfolio_flutter_app/widgets/square.dart';
+import '../widgets/side_menu_widget.dart';
+import '../widgets/contact_info_widget.dart';
 
 class ContactPage extends StatelessWidget {
   ContactPage({super.key});
@@ -24,7 +24,7 @@ class ContactPage extends StatelessWidget {
       body: ListView.builder(
           itemCount: _posts.length,
           itemBuilder: (context, index) {
-            return MySquare(
+            return ContactInfoWidget(
               child: _posts[index],
             );
           }

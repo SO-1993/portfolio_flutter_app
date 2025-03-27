@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio_flutter_app/widgets/side_menu.dart';
+import '../widgets/side_menu_widget.dart';
 
 class ProjectsPage extends StatelessWidget {
   const ProjectsPage({super.key});
