@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../widgets/side_menu_widget.dart';
+import 'package:portfolio_flutter_app/widgets/side_menu_widget.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});
@@ -8,10 +8,10 @@ class SettingsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Settings Page'),
+        title: const Text('Settings Page'),
       ),
-      drawer: SideMenu(),
-      body: Center(
+      drawer: const SideMenu(),
+      body: const Center( 
         child: Text('Welcome to the Settings Page!'),
       ),
     );
