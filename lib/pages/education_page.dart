@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import '../widgets/side_menu_widget.dart';
 import '../widgets/dark_mode_toggle_widget.dart';
 
-class ProjectsPage extends StatelessWidget {
-  const ProjectsPage({super.key});
+class EducationPage extends StatelessWidget {
+  const EducationPage({super.key});
 
   @override
   Widget build(BuildContext context) {

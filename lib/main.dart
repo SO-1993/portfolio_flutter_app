@@ -5,6 +5,7 @@ import '../pages/profile_page.dart';
 import '../pages/projects_page.dart';
 import '../pages/settings_page.dart';
 import '../pages/skills_page.dart';
+import '../pages/education_page.dart';
 import 'package:provider/provider.dart';
 import '../theme/theme_provider.dart';
 
@@ -32,6 +33,7 @@ class MyApp extends StatelessWidget {
         '/projects_page': (context) => const ProjectsPage(),
         '/skills_page': (context) => SkillsPage(),
         '/contact_page': (context) => ContactPage(),
+        '/education_page': (context) => const EducationPage(),
         '/settings_page': (context) => const SettingsPage(),
       },
     );
