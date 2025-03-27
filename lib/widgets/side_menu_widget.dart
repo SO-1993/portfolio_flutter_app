@@ -30,14 +30,14 @@ class SideMenu extends StatelessWidget {
             ),
           ),
           ListTile(
-            leading: Icon(Icons.input),
+            leading: Icon(Icons.home),
             title: Text('Home'),
             onTap: () => {
               Navigator.pushNamed(context,'/home_page')
             },
           ),
           ListTile(
-            leading: Icon(Icons.verified_user),
+            leading: Icon(Icons.account_circle),
             title: Text('Profile'),
             onTap: () => {
               Navigator.pushNamed(context,'/profile_page')
@@ -51,14 +51,14 @@ class SideMenu extends StatelessWidget {
             }
           ),
           ListTile(
-            leading: Icon(Icons.border_color),
+            leading: Icon(Icons.folder),
             title: Text('Projects'),
             onTap: () => {
            Navigator.pushNamed(context,'/projects_page')
             }
           ),
           ListTile(
-            leading: Icon(Icons.info),
+            leading: Icon(Icons.contact_mail),
             title: Text('Contact'),
             onTap: () => {
            Navigator.pushNamed(context,'/contact_page')
