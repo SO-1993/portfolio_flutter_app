@@ -67,8 +67,8 @@ class SideMenu extends StatelessWidget {
             ),
             ListTile(
               leading: Icon(Icons.fitness_center),
-              title: Text('Interests'),
-              onTap: () => Navigator.pushNamed(context, '/interests_page'),
+              title: Text('About Me'),
+              onTap: () => Navigator.pushNamed(context, '/about_me_page'),
             ),
             ListTile(
               leading: Icon(Icons.settings),
