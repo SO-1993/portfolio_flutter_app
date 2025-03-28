@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio_flutter_app/pages/interests_page.dart';
 import 'package:provider/provider.dart';
 import '../pages/contact_page.dart';
 import '../pages/home_page.dart';
@@ -41,6 +42,7 @@ class MyApp extends StatelessWidget {
         '/contact_page': (context) => ContactPage(),
         '/education_page': (context) => const EducationPage(),
         '/settings_page': (context) => const SettingsPage(),
+        '/interests_page': (context) => const InterestsPage(),
       },
     );
   }
