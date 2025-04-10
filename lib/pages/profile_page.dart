@@ -53,16 +53,18 @@ class ProfilePage extends StatelessWidget {
               child: Column(
                 children: const [
                   Text(
-                    "Scott O'Brien",
-                    style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                    ),
+                    "About Me",
+                    style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
                   ),
                   SizedBox(height: 4),
-                  Text("Junior Software Tester"),
+                  Text("Name: Scott O'Brien"),
                   SizedBox(height: 4),
-                  Text("Leeds, United Kingdom"),
+                  Text("Role: Junior Software Tester"),
+                  SizedBox(height: 4),
+                  Text("Company: Optimum Medical"),
+                  SizedBox(height: 4),
+                  Text("Location: Leeds, United Kingdom"),
+                  SizedBox(height: 4),
                 ],
               ),
             ),
@@ -72,7 +74,7 @@ class ProfilePage extends StatelessWidget {
             // Quick Links Title
             const Text(
               'Quick Links',
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
             ),
 
             const SizedBox(height: 8),
